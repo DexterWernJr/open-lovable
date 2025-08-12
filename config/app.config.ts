@@ -1,4 +1,4 @@
-// Application Configuration
+Izip // Application Configuration
 // This file contains all configurable settings for the application
 
 export const appConfig = {
@@ -8,7 +8,7 @@ export const appConfig = {
     timeoutMinutes: 15,
     
     // Convert to milliseconds for E2B API
-    get timeoutMs() {
+      get timeoutMs() { 
       return this.timeoutMinutes * 60 * 1000;
     },
     
